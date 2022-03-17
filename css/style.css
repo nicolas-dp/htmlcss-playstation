@@ -7,8 +7,10 @@ body {
 --bgbutton-primary: #2D64E6;
 --bgbutton-secondary: #363636;
 --txtcolor-light: #366AE6;
+--txtcolor-secondary: #727272;
 --bgbutton-rame: #CD3D0F;
 --bgbutton-light: #D9DADC;
+
 
 }
 
@@ -17,6 +19,10 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     
+}
+
+.txt_color_secondary{
+    color: var(--txtcolor-secondary);
 }
 
 .bg_secondary{
@@ -45,10 +51,6 @@ body {
 
 .gap_50px{
     gap:50px;
-}
-
-.flex_basis_content{
-    flex-basis: 100px;
 }
 
 .rounded_5{
