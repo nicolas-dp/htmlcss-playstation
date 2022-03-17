@@ -12,6 +12,12 @@ body {
 
 }
 
+.hero_img{
+    background-image: url(../img/jumbo-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
 
 .bg_secondary{
     background-color: var(--bgbutton-secondary);
@@ -35,4 +41,16 @@ body {
 
 .p_5px{
     padding: 2px;
+}
+
+.gap_50px{
+    gap:50px;
+}
+
+.flex_basis_content{
+    flex-basis: 100px;
+}
+
+.rounded_5{
+    border-radius: 1.5rem;
 }
