@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+
+--bgbutton-primary: #2D64E6;
+--bgbutton-secondary: #363636;
+--txtcolor-light: #366AE6;
+--bgbutton-rame: #CD3D0F;
+--bgbutton-light: #D9DADC;
+
+}
+
+
+.bg_secondary{
+    background-color: var(--bgbutton-secondary);
+}
+
+.bg_primary{
+    background-color: var(--bgbutton-primary);
+}
+
+.bg_rame{
+    background-color: var(--bgbutton-rame);
+}
+
+.bg_light{
+    background-color: var(--bgbutton-light);
+}
+
+.txt_color_light{
+    color: var(--txtcolor-light);
+}
+
+.p_5px{
+    padding: 2px;
+}
