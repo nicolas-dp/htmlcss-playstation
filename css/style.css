@@ -10,7 +10,7 @@ body {
 --txtcolor-secondary: #727272;
 --bgbutton-rame: #CD3D0F;
 --bgbutton-light: #D9DADC;
-
+--bg-plus: #BEBCBB;
 
 }
 
@@ -19,6 +19,20 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     
+}
+
+.hero_img_two{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero_img_psplus{
+    background-color:var(--bg-plus);
+    background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
 }
 
 .txt_color_secondary{
@@ -55,4 +69,8 @@ body {
 
 .rounded_5{
     border-radius: 1.5rem;
+}
+
+.nuove_uscite{
+    background-color: var(--bgbutton-secondary);
 }
