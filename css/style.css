@@ -20,7 +20,8 @@ body {
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-
+    height: 700px;
+    background-position: top center;
 }
 
 .hero_img_two {
