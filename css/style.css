@@ -28,28 +28,34 @@ body {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 700px;
+    background-position: top center;
 }
 
-.ps_plus{
+.ps_plus {
     background-color: var(--bg-plus);
+    
 }
 
 .hero_img_psplus {
     background-image: url(../img/ps-plus-april-monthly-games-featured-image-block.png);
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: right;
+    background-position: top right;
+    height: 550px;
 }
 
-.ps_now{
+.ps_now {
     background-color: var(--bg-now);
+    
 }
 
 .hero_img_psnow {
     background-image: url(../img/ps-now-april-featured-image-block.png);
     background-repeat: no-repeat;
-    background-position: right;
-    background-size: 500px;
+    background-size: contain;
+    background-position: top right;
+    height: 550px;
 }
 
 
@@ -96,7 +102,80 @@ body {
 
 /* Footer */
 
-#site_footer{
+#site_footer {
     background-color: #366AE6;
 }
+
+
+.top_down_animation:hover {
+    position: relative;
+    animation-name: top_down;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+}
+
+
+@keyframes top_down {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    50% {
+        left: 0px;
+        top: -20px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+
+@media screen and (max-width:575px) {
+
+    .ps_plus img{
+        max-width: 100%;
+    }
+
+    .hero_img_psplus{
+        background-image: none;
+    }
+
+    .ps_now img{
+        max-width: 100%;
+    }
+
+    .hero_img_psnow{
+        background-image: none;
+    }
+
+    .hero_img img{
+        max-width: 100%;
+    }
+} 
+
+@media screen and (max-width:991px) {
+
+    .ps_plus img{
+        max-width: 100%;
+    }
+
+    .hero_img_psplus{
+        background-image: none;
+    }
+
+    .ps_now img{
+        max-width: 100%;
+    }
+
+    .hero_img_psnow{
+        background-image: none;
+    }
+
+    .hero_img img{
+        max-width: 100%;
+    }
+} 
 
