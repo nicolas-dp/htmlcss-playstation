@@ -20,16 +20,16 @@ body {
     background-image: url(../img/jumbo-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
-    background-position: top center;
+    height: 750px;
+    background-position: center;
 }
 
 .hero_img_two {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
-    background-position: top center;
+    height: 800px;
+    background-position: center;
 }
 
 .ps_plus {
@@ -103,17 +103,19 @@ body {
 /* Footer */
 
 #site_footer {
-    background-color: #366AE6;
+    background-color: #00439C;
 }
 
+/* ******** */
 
+
+/* Animation firts grid img  */
 .top_down_animation:hover {
     position: relative;
     animation-name: top_down;
     animation-duration: 2s;
     animation-delay: 0.5s;
 }
-
 
 @keyframes top_down {
     0% {
@@ -132,7 +134,19 @@ body {
     }
 }
 
+/* ***************** */
 
+
+/* Hover slider PlayStation 5 */
+.slider:hover img{
+    opacity: 1!important;
+}
+
+.slider:hover{
+    border-bottom: 4px solid var(--bgbutton-primary);
+}
+
+/* Added madia query */
 @media screen and (max-width:575px) {
 
     .ps_plus img{
@@ -175,6 +189,10 @@ body {
     }
 
     .hero_img img{
+        max-width: 100%;
+    }
+
+    .hero_img_two img{
         max-width: 100%;
     }
 } 
