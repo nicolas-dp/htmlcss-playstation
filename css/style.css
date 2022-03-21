@@ -108,6 +108,23 @@ body {
 
 /* ******** */
 
+.btn_animation_rame:hover {
+    border: 2px solid var(--bgbutton-rame);
+    padding: 1px;
+}
+
+.btn_animation_primary,
+.btn_animation_rame{
+    display: inline-block;
+}
+
+
+.btn_animation_primary:hover {
+    border: 2px solid var(--bgbutton-primary);
+    padding: 1px;
+    
+}
+
 
 /* Animation firts grid img  */
 .top_down_animation:hover {
